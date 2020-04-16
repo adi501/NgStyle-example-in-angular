@@ -1,0 +1,15 @@
+<h1>NgStyle example in angular</h1>
+
+<div [ngStyle]="{'background-color':'green'}">
+  example 1</div>
+  <br/>
+  <div [ngStyle]="{'background-color':Name === 'jc' ? 'red' : 'green' }">
+    example 2
+  </div>
+  <br/>
+  <div [ngStyle]="{'background-color':getColor('2')}">
+    example 3
+  </div>
+  <br/>
+  <div [style.color]="getColor('3')">example 4
+  </div>
